@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginEnd="5dp"
+              android:layout_marginStart="5dp"
+              android:layout_marginTop="10dp"
+              android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/layout_chase_bangumi"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_margin="3dp"
+        android:layout_weight="1"
+        android:background="@drawable/yellow_item_bg"
+        android:drawablePadding="5dp"
+        android:drawableStart="@drawable/ic_following_bangumi"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="追番"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat"/>
+
+
+    <TextView
+        android:id="@+id/layout_bangumi_schedule"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_margin="3dp"
+        android:layout_weight="1"
+        android:background="@drawable/pink_item_bg"
+        android:drawablePadding="5dp"
+        android:drawableStart="@drawable/ic_bangumi_calendar_7"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="放送表"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat"/>
+
+
+    <TextView
+        android:id="@+id/layout_bangumi_index"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_margin="3dp"
+        android:layout_weight="1"
+        android:background="@drawable/blue_item_bg"
+        android:drawablePadding="5dp"
+        android:drawableStart="@drawable/ic_bangumi_category"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="索引"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat"/>
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/g1">
+    <item
+        android:id="@+id/main"
+        android:icon="@mipmap/ic_home_black_24dp"
+        android:title="首页"/>
+    <item
+        android:id="@+id/member"
+        android:icon="@mipmap/ic_nav_vip"
+        android:title="我的大会员"/>
+    <item
+        android:id="@+id/jifen"
+        android:icon="@mipmap/ic_nav_point"
+        android:title="会员积分"/>
+    <item
+        android:id="@+id/down"
+        android:icon="@mipmap/ic_file_download_black_24dp"
+        android:title="离线缓存"/>
+    </group>
+    <group android:id="@+id/g2">
+    <item
+        android:id="@+id/see"
+        android:icon="@mipmap/ic_view_later_24dp"
+        android:title="稍后再看"/>
+    <item
+        android:id="@+id/save"
+        android:icon="@mipmap/ic_history_black_24dp"
+        android:title="我的收藏"/>
+    <item
+        android:id="@+id/hostory"
+        android:icon="@mipmap/ic_people_black_24dp"
+        android:title="历史记录"/>
+    <item
+        android:id="@+id/guanzhu"
+        android:icon="@mipmap/ic_account_balance_wallet_black_24dp"
+        android:title="我的关注"/>
+    <item
+        android:id="@+id/money"
+        android:icon="@mipmap/ic_color_lens_black_24dp"
+        android:title="我的B钱包"/>
+    </group>
+    <group android:id="@+id/g3">
+    <item
+        android:id="@+id/theme"
+        android:icon="@mipmap/ic_shop_black_24dp"
+        android:title="主题选择"/>
+    <item
+        android:id="@+id/setting"
+        android:icon="@mipmap/ic_settings_black_24dp"
+        android:title="设置与帮助"/>
+    </group>
+</menu>
